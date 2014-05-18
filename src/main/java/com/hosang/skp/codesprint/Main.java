@@ -24,7 +24,7 @@ public class Main {
 		}
 		
 		long estimatedTime = System.currentTimeMillis() - startTime;
-		System.out.println("##### Total elapsed time: " + (estimatedTime / 1000) + " seconds");
+		System.out.println("##### Total elapsed time: " + (estimatedTime / 1000) + " seconds (" + estimatedTime + " milliseconds)");
 	}
 	
 }

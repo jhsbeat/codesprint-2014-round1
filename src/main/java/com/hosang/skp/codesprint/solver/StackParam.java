@@ -6,6 +6,7 @@ public class StackParam {
 	private String prefix;
 	private Answer answer;
 	private int matchCount;
+	private int wordFreq;
 	private int limit;
 	
 	public String getQuery() {
@@ -31,6 +32,12 @@ public class StackParam {
 	}
 	public void setMatchCount(int matchCount) {
 		this.matchCount = matchCount;
+	}
+	public int getWordFreq() {
+		return wordFreq;
+	}
+	public void setWordFreq(int wordFreq) {
+		this.wordFreq = wordFreq;
 	}
 	public int getLimit() {
 		return limit;
